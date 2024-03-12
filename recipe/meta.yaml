@@ -1,5 +1,5 @@
 {% set name = "imodels" %}
-{% set version = "1.4.1" %}
+{% set version = "1.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/imodels-{{ version }}.tar.gz
-  sha256: eac7cf9cea9ffd7d8b52be0815359c9778ed076bfb004f147944aa1df3861156
+  sha256: fc829e87f239ee71c85fd1342d6961edf1ac723eca1b9fa779292113f4169adb
 
 build:
   noarch: python
