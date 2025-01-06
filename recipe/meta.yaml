@@ -1,5 +1,6 @@
 {% set name = "imodels" %}
 {% set version = "2.0.0" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
