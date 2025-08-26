@@ -1,5 +1,5 @@
 {% set name = "imodels" %}
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/imodels-{{ version }}.tar.gz
-  sha256: 6a96ca1c703fd425e02392e5ae7eacb87a6947d78212d3401e3e64b1f83ccabb
+  sha256: af08f494667bf0cca45765595bdb8ee20b3e01eb11fa609a49f4f70dee5edec4
 
 build:
   noarch: python
